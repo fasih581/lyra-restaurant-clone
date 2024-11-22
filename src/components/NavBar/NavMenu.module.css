@@ -1,0 +1,57 @@
+.SideBarMenu {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.Icon {
+    font-size: 35px;
+    color: #A94931;
+}
+
+
+.CloseIconBox {
+    text-align: end;
+    width: 90%;
+    background: transparent;
+}
+
+.CloseIcon {
+    color: #A94931;
+    border: none;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.SideBarNav {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.SideBarNav h4{
+    font-size: 24px;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #A94931;
+}
+
+.SideBarNav h2{
+    color: #A94931;
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 1030px) {
+    .Icon {
+        font-size: 25px;
+        color: #A94931;
+    }
+
+    .SideBarNav h4{
+        font-size: 18px;
+    }
+}

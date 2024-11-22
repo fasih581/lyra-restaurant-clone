@@ -1,0 +1,73 @@
+.Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgBox  img{
+    width: 450px;
+    height: 450px;
+}
+
+.TextBox{
+    width: 390px;
+}
+
+.TextBox h4{
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    margin: 0;
+    color: #A94931;
+    width: 90px;
+}
+
+.TextBox h4::after {
+    content: "";
+    display: block;
+    background-color: #A94931;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.TextBox p{
+    font-size: 24px;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #A94931;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .Container {
+        gap: 30px;
+    }
+
+    .ImgBox  img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    
+    .TextBox{
+        width: 250px !important;
+    }
+
+    .TextBox p{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    .Container {
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+
+  }

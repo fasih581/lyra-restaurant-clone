@@ -1,0 +1,73 @@
+.HomeContainer {
+    height: 100vh;
+    background-image: url('../../assets/Home.jpeg');
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.Heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 280px;
+    font-weight: 100;
+    color: #A94931;
+}
+
+.ImgContainer img {
+    height: 70vh;
+    width: 100%;
+}
+
+.Footercontainer {
+    background-color: #A94931;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 1030px) {
+    .container {
+        max-width: 900px !important;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        max-width: 650px !important;
+    }
+
+    .Heading h1 {
+        font-size: 170px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .container {
+        max-width: 540px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 560px) {
+    .container {
+        max-width: 450px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 455px) {
+    .container {
+        max-width: 300px !important;
+    }
+
+    .Heading h1 {
+        font-size: 100px !important;
+        margin-top: 50%;
+    }
+
+  }

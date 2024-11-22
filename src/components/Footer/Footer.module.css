@@ -1,0 +1,182 @@
+.Container {
+    padding: 50px 0;
+}
+
+.TopSec {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.TopSecDiv{
+    display: flex;
+    gap: 150px;
+}
+
+.TopSec .Sec {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.Sec h3 {
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #E2DAC6;
+}
+
+.SecDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    margin: 0;
+}
+
+.SecDiv h4 {
+    font-size: 30px;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #E2DAC6;
+}
+
+.SecDiv .Description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+}
+
+.SecDiv .Description h5 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #E2DAC6;
+}
+
+.SecDiv .Description h6 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #E2DAC6;
+}
+
+.ContactSec h3 {
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #E2DAC6;
+}
+
+.ContactSec {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.ContactSecDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContactSecDiv p {
+    width: 222px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #E2DAC6;
+}
+
+.ContactSecDiv h5 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #E2DAC6;
+}
+
+.ContactSecDiv .ContactSecLink {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ContactSecDiv .ContactSecLink h6 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    color: #E2DAC6;
+}
+
+.TopSec .NameSec h2{
+    font-size: 150px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin: 0;
+    color: #E2DAC6;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 1030px) {
+    .TopSec {
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .SecDiv .Description h5 {
+        font-size: 16px !important;
+    }
+
+    .ContactSecDiv h5 {
+        font-size: 16px !important;
+    }
+
+    .SecDiv .Description h6 {
+        font-size: 14px;
+    }
+
+    .ContactSecDiv h6 {
+        font-size: 14px !important;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    .TopSecDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .SecDiv {
+        margin: 0;
+    }
+
+    .SecDiv .Description {
+        margin: 0;
+    }
+
+  }
+
+  @media only screen and (max-width: 455px) {
+
+    .TopSec .NameSec h2{
+        font-size: 100px !important;
+    }
+    
+  }

@@ -1,0 +1,144 @@
+.container {
+  max-width: 1300px;
+}
+
+.containerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.containerBox h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #A94931;
+  width: 630px;
+  text-align: center;
+}
+
+.BtnBox {
+  display: flex;
+  gap: 20px;
+}
+
+.BtnBox Button {
+  color: #E2DAC6;
+  background: #A94931;
+  font-size: 20px;
+  font-family: "Lato", serif;
+  font-weight: 500;
+}
+
+.BtnBox Button:hover {
+  background-color: #A94931;
+} 
+
+.BtnBox Button.OutlineBtn{
+  border: 1px solid #A94931;
+  background-color: transparent;
+  color: #A94931
+}
+
+.DetailsBox{
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 30px;
+  margin: 50px 0 50px 0;
+}
+
+.DetailsImg img {
+  width: 250px;
+  height: 220px;
+}
+
+.DetailsText {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.DetailsText h6 {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Lato", serif;
+  font-weight: 500;
+  color: #A94931;
+  width: 180px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.DetailsText p {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Lato", serif;
+  font-weight: 800;
+  color: #A94931
+}
+
+.Footercontainer {
+  background-color: #A94931;
+}
+
+@media only screen and (max-width: 1030px) {
+  .container {
+    max-width: 900px !important;
+  }
+
+  .DetailsBox{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 650px !important;
+  }
+
+  .DetailsBox{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    max-width: 540px !important;
+  }
+  .containerBox h1 {
+    font-size: 40px;
+    width: 500px;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 450px !important;
+  }
+
+  .DetailsBox{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .containerBox h1 {
+    font-size: 40px;
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 455px) {
+  .container {
+    max-width: 300px !important;
+  }
+
+  .containerBox h1 {
+    font-size: 36px;
+    width: 300px;
+  }
+}
